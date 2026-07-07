@@ -8,6 +8,6 @@ app.get("/" , (req, res)=>{
     res.json("kwelcome to dummy backend");
 })
 
-app.listen(port , (req, res) =>{
+app.listen(port , () =>{
 console.log(`Server is running on port ${port}`);
 });
